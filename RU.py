@@ -24,7 +24,7 @@ def tabu(page_p):
                 df_ta = ta_df[1]
         # 열의 개수가 4개인 경우
         if len(df_ta.columns)==4:
-            # 추출하고자 하는 열로 구성하기|
+            # 추출하고자 하는 열로 구성하기
             df_ta.columns=col_list
             # 필요없는 행 제거하기
             df_ta = df_ta.drop(index=[0,1,2,3,4,5,6,7,8,9], axis=0)
